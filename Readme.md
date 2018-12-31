@@ -2,8 +2,11 @@
 
 * Architecture:
 
+![alt text](https://github.com/ramamidi/media/blob/master/demo-web-api/demo-web-api-arch.png "arch")
 
 * DB:
+
+![alt text](https://github.com/ramamidi/media/blob/master/demo-web-api/db.png "db")
 
 
 #### Local setup:
@@ -42,3 +45,10 @@
     * cd into demo-web-api
     * `mvn clean install`
     * `java -jar target/demo-web-api-1.0-SNAPSHOT.jar`
+
+
+#### Testing using postman:
+
+* Login End point
+
+![alt text](https://github.com/ramamidi/media/blob/master/demo-web-api/login-endpoint.png "login")

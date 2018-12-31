@@ -1,28 +1,25 @@
 spring.profiles: prod
 
 server.port: 9966
-server.host.name :
+server.host.name : "http://localhost:9966"
 
 
-initech.security.jwt:
+ramdemo.security.jwt:
   tokenExpirationTime: 60 # Number of minutes
   refreshTokenExpTime: 90 # Minutes
-  tokenIssuer: http://ramdemo.com
+  tokenIssuer: http://webdemo.com
   tokenSigningKey: xm8EV6Hy5RMFK4EEACIDAwQus
 
 aws.s3:
-  accessKey:
-  secretKey:
-  bucket:
+  url: <your-s3-url> # ex: https://s3.amazonaws.com
+  accessKey: <your-s3-accessKey>
+  secretKey: <your-s3-s3 secretKey>
+  bucket: <your-s3-bucket>
 
 spring.datasource:
-  url:
-  username:
-  password:
-  testWhileIdle : true
-  timeBetweenEvictionRunsMillis : 60000
-  validationQuery : SELECT 1
-
+  url: "jdbc:mysql://localhost:3306/<you-db-name>?useSSL=false"
+  username: <your-mysql-username>
+  password: <your-mysql-pass>
 spring.jpa:
   show-sql: true
 
