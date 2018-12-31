@@ -1,4 +1,4 @@
-package com.ramdemo.api.serviceRequest;
+package com.ramdemo.api.locationInfo;
 
 import com.ramdemo.locationInfo.model.LocationInfo;
 import com.ramdemo.locationInfo.service.LocationInfoService;

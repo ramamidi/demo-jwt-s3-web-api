@@ -1,4 +1,4 @@
-package com.ramdemo.api.s3;
+package com.ramdemo.api.storage;
 
 import java.io.IOException;
 import java.util.Set;

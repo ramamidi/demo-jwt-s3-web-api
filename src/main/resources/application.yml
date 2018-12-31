@@ -11,10 +11,10 @@ ramdemo.security.jwt:
   tokenSigningKey: xm8EV6Hy5RMFK4EEACIDAwQus
 
 aws.s3:
-  url: <your-s3-url> # ex: https://s3.amazonaws.com
-  accessKey: <your-s3-accessKey>
-  secretKey: <your-s3-s3 secretKey>
-  bucket: <your-s3-bucket>
+  url: <your-storage-url> # ex: https://s3.amazonaws.com
+  accessKey: <your-storage-accessKey>
+  secretKey: <your-storage-storage secretKey>
+  bucket: <your-storage-bucket>
 
 spring.datasource:
   url: "jdbc:mysql://localhost:3306/<you-db-name>?useSSL=false"
