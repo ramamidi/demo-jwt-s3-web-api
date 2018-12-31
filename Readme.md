@@ -52,3 +52,19 @@
 * Login End point
 
 ![alt text](https://github.com/ramamidi/media/blob/master/demo-web-api/login-endpoint.png "login")
+
+
+* save location info End point(Saves location info in DB and creates a folder in S3 with locationInfoId)
+
+![alt text](https://github.com/ramamidi/media/blob/master/demo-web-api/location-info-save.png "location-info-savee")
+
+![alt text](https://github.com/ramamidi/media/blob/master/demo-web-api/location-into-save-bearer.png "location-info-save-bearer")
+
+![alt text](https://github.com/ramamidi/media/blob/master/demo-web-api/Screen%20Shot%202018-12-31%20at%2012.32.34%20PM.png "location-info-save-bearer")
+
+
+* upload file End point(Uploads file into to the specified location info id folder and returns s3 file url)
+
+![alt text](https://github.com/ramamidi/media/blob/master/demo-web-api/upload-file.png "upload file")
+
+![alt text](https://github.com/ramamidi/media/blob/master/demo-web-api/s3-upload.png "s3 upload")
