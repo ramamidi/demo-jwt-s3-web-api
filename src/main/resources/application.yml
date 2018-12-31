@@ -1,0 +1,28 @@
+server.port: 9966
+server.host.name: "http://localhost:9966"
+
+
+spring.profiles: default
+ramdemo.security.jwt:
+  tokenExpirationTime: 60 # Number of minutes
+  refreshTokenExpTime: 90 # Minutes
+  tokenIssuer: http://ramdemo.com
+  tokenSigningKey: xm8EV6Hy5RMFK4EEACIDAwQus
+
+aws.s3:
+  url: https://s3.amazonaws.com
+  accessKey: AKIAJW3UESCIG3LYPZ2A
+  secretKey: 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
+  bucket: ramdemo.3dmodels
+
+
+spring.datasource:
+  url: "jdbc:mysql://localhost:3306/ram_demo?useSSL=false"
+  username: root
+  password: "pass"
+  data: "classpath*:data.sql"
+spring.jpa:
+  show-sql: true
+
+
+

@@ -1,0 +1,31 @@
+spring.profiles: prod
+
+server.port: 9966
+server.host.name :
+
+
+initech.security.jwt:
+  tokenExpirationTime: 60 # Number of minutes
+  refreshTokenExpTime: 90 # Minutes
+  tokenIssuer: http://ramdemo.com
+  tokenSigningKey: xm8EV6Hy5RMFK4EEACIDAwQus
+
+aws.s3:
+  accessKey:
+  secretKey:
+  bucket:
+
+spring.datasource:
+  url:
+  username:
+  password:
+  testWhileIdle : true
+  timeBetweenEvictionRunsMillis : 60000
+  validationQuery : SELECT 1
+
+spring.jpa:
+  show-sql: true
+
+
+
+
